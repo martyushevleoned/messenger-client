@@ -1,0 +1,24 @@
+.container {
+    margin: 10px;
+}
+
+.chat {
+    min-width: 400px;
+    flex-grow: 1;
+    background-color: bisque;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.messages {
+    min-width: 250px;
+    flex-grow: 1;
+    background-color: brown;
+}
+
+.chatInfo {
+    min-width: 200px;
+    background-color: rgb(136, 42, 165);
+}
